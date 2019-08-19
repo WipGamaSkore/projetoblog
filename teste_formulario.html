@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content=" Grupo WIP Group [Hacker] - Junior Moraes, Humberto Alves">
+    <meta name="description" content="Página em HTML5 para formulário, captura de leads do wip group">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css" >
+    <link rel="stylesheet" href="_css/form.css" >
+</head>
+<!--=<script language="javascript" src="_javascritpt/funcoes.js"></script>  Ver se irá usar algum JavaScript -->
+
+<body>
+<div id="interface">
+        <header id="cabecalho">
+            <!-- Ver no layot do design ainda como irá encaixar -->
+            <h1>Peencha seus dados!</h1>
+            <h2>para receber mais informações dos cursos</h2>
+            <img id=" logo" src="img/logo.png">
+        </header>
+        <section>
+            <!-- Formulario para preenchimento dos dados -->
+            <form action="captura-dos-leads.php" method="post"> 
+            <fieldset id="usuario">
+            <legend> Colque aqui seus dados para receber mais conteudo</legend>
+           
+           <div>
+               <!--Fazendo com o 'laber for e idicando o name' faz com que o nome tbm fique clicável, 
+                    bom para a semântica do Google em ler a página e respender a ações
+                    simples como clicar no nome e ir direto para a caixa dele mesmo--> 
+               <label for="tMail">E-mail <br><input type="email" name="tMail" id="cMail" size="40" maxlength="255"placeholder="Digite seu E-mail"></label><br>
+               <label for="tNome">Nome e Sobrenome<br><input type="text" name="tNomeSobrenome" id="cNomeSobrenome" size="40" maxlength="255" placeholder="Digite seu nome e Sobrenome"></label><br>
+           </div> 
+            <!--Ver como dar o download dos ebooks-->
+            <label for="tcadastrar"><input type="submit" name="tCadastrar" id="cCadastrar" valeu="Cadastrar"><label>
+            </fieldset>
+            </form>
+        </section>
+
+        <footer id="rodape">
+            <a href=" facebook pagina" target="blank">Facebook</a>
+            <a href="Intagram perfil" target="blank">Instagram</a>
+        </footer>
+        
+</div>
+    
+</body>
+</html>
