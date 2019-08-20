@@ -1,0 +1,29 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #7159c1;
+}   
+.container{
+    display: grid;
+}
+header{
+    background: yellow;
+    height: 100px; 
+
+}
+main{
+    background: green;
+    height: 100px; 
+
+}
+aside{
+    background: red;
+    height: 100px; 
+
+}
+footer{
+    background: pink;
+    height: 100px; 
+
+}

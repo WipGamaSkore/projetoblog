@@ -1,0 +1,149 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(240, 250, 255);
+}  
+header{
+    background: #BAE1F8;
+    height: 200px;
+  
+}
+main{
+    background: rgb#BAE1F8;
+    height: 700px;
+    
+}
+footer{ /* rodapé fixo na rolagem da pagina */ 
+    background: #1b105a;
+    border-top: 1px solid #BAE1F8;;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    
+}
+/*----------------- sobre posicionamento do container-----------*/
+.container_cabeca{
+    display: flex;
+    flex-direction: wrap;
+    align-content: wrap;
+    flex-direction: wrap;
+}
+/*----------------- sobre posicionamento do logo-----------*/
+.logo{
+    display:flex;
+    flex-direction:row;
+    align-content: left ;
+    border-collapse: collapse;
+    margin-left: 10px;
+    height: 175px;
+
+}
+/*----------------- sobre posicionamento/layout da navegação -----------*/
+/*.nav{
+    
+    border: 1px dotted black;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #1b105a;
+}*/
+.nav1{ /*---- Navegação - Sobre nós ---*/
+    
+    position: absolute;
+    right: 330px;
+    top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #1b105a;
+}
+.nav2{ /*---- Navegação - Ajuda ---*/
+   
+    position: absolute;
+    right: 230px;
+    top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #1b105a;
+}
+.nav3{ /*---- Navegação - Fale conosco ---*/
+    
+    position: absolute;
+    right: 80px;
+    top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #1b105a;
+}
+/*----------------- Campo Pesquisar-----------*/
+.busca{
+    position: absolute;
+    right: 80px;
+    top: 160px;
+}
+
+.divBusca{
+    
+    border: 5px dotted black;
+    right: 80px;
+    background-color:transparent;
+    background-color:#2F4F4F;
+    border:solid 1px;
+    
+}
+   
+.txtBusca{
+    border: 5px dotted black;
+    float: right;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:px;
+}
+/*----------------- Parte do Blog-----------*/
+.container_blog{
+    display: row;
+    flex-direction: wrap;
+    align-content: center;
+    flex-direction:row;
+    background: #BAE1F8ge;
+    padding: 40px;
+
+
+}
+/*
+.artigo{
+    width: 70%;
+    height: 300px;
+    background: blue;
+    border-style: 1px dotted;
+
+    
+}*/
+/*----------------- Layout dos Titulos dos artigos -----------*/
+.tituloPost{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #1b105a;
+}
+.letra{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #1b105a;
+
+}
+/*----------------- Botao da newsletter -----------*/
+.botao{
+    position: absolute;
+    right: 80px;
+    bottom: 15px;
+}
+h1{
+    text-align: center;
+}
+/*----------------- Imagem - Arquivo tela de inicio -----------*/
+.imagem{
+    align-content: center;
+    text-align: center;
+}

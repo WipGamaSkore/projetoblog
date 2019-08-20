@@ -1,0 +1,34 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(240, 250, 255);
+}  
+header{
+    background: #BAE1F8;
+    height: 200px;
+  
+}
+main{
+    background: rgb#BAE1F8;
+    height: 700px;
+    
+}
+footer{ /* rodapé fixo na rolagem da pagina */ 
+    background: #1b105a;
+    border-top: 1px solid #BAE1F8;;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    
+}
+.container_blog{
+    display: row;
+    flex-direction: wrap;
+    align-content: center;
+    flex-direction:row;
+    border: 3px grey;
+    padding: 300px;
+}
