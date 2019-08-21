@@ -109,9 +109,7 @@ footer{ /* rodapé fixo na rolagem da pagina */
     flex-direction: wrap;
     align-content: center;
     flex-direction:row;
-    background: #BAE1F8ge;
-  padding: 40px;
-
+    padding: 40px;
 
 }
 /*
@@ -123,19 +121,30 @@ footer{ /* rodapé fixo na rolagem da pagina */
 
     
 }*/
-/*----------------- Layout dos Titulos dos artigos -----------*/
-.tituloPost{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
-    color: #1b105a;
-}
-.letra{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
-    color: #1b105a;
 
-}
 /*----------------- Botao da newsletter -----------*/
 .botao{
     position: absolute;
     right: 80px;
     bottom: 15px;
+}
+/*----------------- Estilo das letras -----------*/
+.letra{
+    font-size: 15px;
+    line-height: 1.5;
+    font-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #1b105a;
+
+}
+h2{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #1b105a;
+}
+h1{
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #1b105a;
+
 }
