@@ -26,10 +26,7 @@ footer{ /* rodapé fixo na rolagem da pagina */
 }
 /*----------------- sobre posicionamento do container-----------*/
 .container_cabeca{
-    display: flex;
-    flex-direction: wrap;
-    align-content: wrap;
-    flex-direction: wrap;
+    display: flex;  
 }
 /*----------------- sobre posicionamento do logo-----------*/
 .logo{
@@ -113,8 +110,7 @@ footer{ /* rodapé fixo na rolagem da pagina */
 }
 /*----------------- Parte do Blog-----------*/
 .container_blog{
-    display: row;
-    flex-direction: wrap;
+    
     align-content: center;
     flex-direction:row;
     
@@ -151,7 +147,8 @@ footer{ /* rodapé fixo na rolagem da pagina */
     text-decoration: none;
 }
 p {
-    font-style: helvetica;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #1b105a;
     font-size: 20px;
     line-height: 1.5;
    }

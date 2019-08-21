@@ -75,6 +75,15 @@ footer{ /* rodapé fixo na rolagem da pagina */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
     color: #1b105a;
 }
+.nav4{ /*---- Navegação - Blog ---*/
+    
+    position: absolute;
+    right: 480px;
+    top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #1b105a;
+}
+
 /*----------------- Campo Pesquisar-----------*/
 .busca{
     position: absolute;

@@ -1,27 +1,78 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!--=========================================       CAMPOS ESTÁTICOS (não alterar)        -->
+
+    <!-------------------------------------------       Campo 1 - Global site tag (gtag.js) - Google Analytics        -->  
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145926373-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-145926373-1');
+        </script>
+
+
+    <!-------------------------------------------       Campo 2 - Hotjar Tracking Code for https://www.blogyoup.com.br/index.html        -->
+        <script>
+                (function(h,o,t,j,a,r){
+                    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                    h._hjSettings={hjid:1453447,hjsv:6};
+                    a=o.getElementsByTagName('head')[0];
+                    r=o.createElement('script');r.async=1;
+                    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                    a.appendChild(r);
+                })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+            </script>
+
+    <!-------------------------------------------       Internet Explorer                   -->    
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!--=========================================       CAMPOS semi ESTÁTICOS (pode alterar)        -->
+
+    <!-------------------------------------------       Campo 3 - Autores        -->
         <meta charset="UTF-8">
-        <meta name="autor" content=" Grupo WIP Group [Hacker] - Junior Moraes, Humberto Alves">
+        <meta name="autor" content="            -   WIP Group - 
 
-        <meta name="description" content=" descrição  ">
+        Hacker = [Junior Moraes, Humberto Cruz];
+        Hustler = [Gabriel Macedo];
+        Hyper = [Marina Vargas, Gustavo Nunes, Rayane Nunes];
+        Hipster = [Matheus Pussi, Manuella Firmo, Fla Ferreira, Lidia Carvalho]" > 
 
-        <meta name="keywords" content="Palavras-chave" >
+    <!-------------------------------------------       Campo 4  Distribuição do conteúdo     -->     
+       <meta name="distribution" content="global">
+       <meta name="rating" content="general" >
+
+    <!-------------------------------------------       Campo 5 - KeyWords - Robô/Google       -->           
+        <meta name="keywords" content="capital humano">
         <meta name="robot" content="Index,Follow" >
         <meta name="rating" content="general" >
         <meta name="distribution" content="global">
         
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Blog youp! Modelo !</title>
 
+    <!--=========================================       CAMPOS NÃO ESTÁTICOS (sempre alteráveis)       --> 
+
+    <!-------------------------------------------       Campo 6 - Descrição do Blog - Tilte      --> 
+
+        <meta name="title" content="5 dicas para a gestão do capital humano da sua empresa">
+        <meta name="description" content="Reunimos 5 dicas nesse post para ajudar você e a sua empresa a gerir melhor o capital humano da sua empresa. Clique e nos conte o que achou.">
+        
+    <!-------------------------------------------       Campo 7 - Título (Sempre alterar -max de 69 caracters)    -->     
+        <title>Blog Youp! 5 dicas para a gestão do capital humano da sua empresa</title>
+
+    <!-------------------------------------------       Campo   - Css referência        -->
         <link href="css/index_home.css" rel="stylesheet"> 
 
 </head>
 <body>
-    <header>
-        <!-------------------------------------------  Campo - Logo -->  
+    <header> 
+            <!-------------------------------------------  Campo - Logo --> 
         <div class="container_cabeca">
             <div class="logo">              
-                    <a href="../index.html"><img src="img/youp.png" title="Logo Blog Youp!" alt= "logo" height="150px"></a>>
+                    <a href="../formulario.html"><img src="img/youp.png" title="Logo Blog Youp!" alt= "logo" height="150px"></a>
             </div>   
             <!-------------------------------------------  Campo - Navegação botões -->
                     <a  class="nav4" href="./index.html"> Blog </a>
@@ -35,30 +86,29 @@
                     </div>
                 </div>    
         </div>            
-        </div>           
+                  
     </header>
     <main>
         <div class="container_blog">
                 <!----------- Artigo 1--------->
                     <hr noshade=”noshade” width="70%" size="1px" align="center" /><!-- Barra divisoria dos artigos-->
                     <p id="artigo"></p> <!-- Usar quando quiser dar ênfase em artigo -->
-                    <h2 letra="h5-tituloPost"> Titulo </h2></a> 
-                <div class="letra"></div>
-                    <b>SEO</b> Subtitulo<br>
+                    <div class="letra">
                     
-                    <p>
-
-                    </p> 
+               
+                    </div>         <!-------------------------------------------  Ver porque o text decoration não esta funcionando -->
+            <footer>
                     <hr noshade=”noshade” width="70%" size="1px" align="center" /> <!-- Barra divisoria dos artigos-->
                  
-                </div>
+        </div>
             </main>
-            <!-------------------------------------------  Campo - Rodapé fixo com link para formulário -->
+            <footer>
+                <!-------------------------------------------  Campo - Rodapé fixo com link para formulário -->
             <footer>
                 <div class=" botao">
                                      
-                                <button class="btn btn-primary" href=“teste_formulario.html”>Cadastrar a Newsletter</button></a>
-                        
+                                <button href=“formulario.html”>Cadastrar a Newsletter</button>
+                </div>       
             </footer>
         
         </body>
