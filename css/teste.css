@@ -1,0 +1,26 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: whitesmoke;
+}  
+header{
+    background: whitesmoke;
+    height: 200px;
+  
+}
+main{
+    background: whitesmoke;
+    height: 700px;
+    
+}
+footer{ /* rodapé fixo na rolagem da pagina */ 
+    background: #1b105a;
+    border-top: 1px solid #BAE1F8;;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    
+}

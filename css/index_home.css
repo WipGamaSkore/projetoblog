@@ -22,7 +22,12 @@ footer{ /* rodapé fixo na rolagem da pagina */
     height: 50px;
     position: fixed;
     width: 100%;
-    
+    opacity:.6;
+}
+h1{
+    font-style: {
+        
+    }
 }
 /*----------------- sobre posicionamento do container-----------*/
 .container_cabeca{

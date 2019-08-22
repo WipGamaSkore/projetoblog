@@ -44,7 +44,7 @@ A Blog project to generate leads proposed in the assignment of week 2 by Gama Ex
         - Need fix broken-link words in Article;
         - Texto em produção pela equipe;
 
-    * Ensino à distância: as cinco ferramentas mais utilizadas em curso online: 
+    * Como produzir cursos online: 
         - Need to fix space between Tilte and text; 
         - Need fix link abaixo do texto;
         - Need fix link button to formulario Cadastrar a Newsletter;

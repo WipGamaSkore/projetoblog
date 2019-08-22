@@ -22,7 +22,7 @@ footer{ /*------------------------ Rodapé fixo na rolagem da página -- */
     height: 50px;
     position: fixed;
     width: 100%;
-    
+    opacity:.6;
 }
 .container_blog{/*----------------- Posicionamento do container_blog no Doc Ajuda.html -- */
     display: row;
