@@ -110,39 +110,102 @@
     }
     </style>
     <div class="container">
-                <div id="div_form" class="col-sm-5 col-md-6">
-                    
-                    <form name="contact" method="POST" data-netlify="true">
-                    
-                        <div class="form-group">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Nome" name="nome">
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="E-mail" name="E-mail">
-                            </div>
-                        </div>
+
+
+            <div class="container_blog">
+                    <div class="container_blog">
+                    <h1>Fale conosco</h1>
+                    <!-------------------------------------------  Campo - Fale conosco - Formulário -->
+                    <form>
+                            <section>
+                                    <!-- Formulario para preenchimento dos dados com link para o servidor Netlify(contact) -->
+                                    
+                                <form class="form" name="contact" method="POST" data-netlify="true"  > <!-- tag, entering the path of your custom page (like "/pages/success") as the value.
+                                                                                                                         The path must be relative to the site root, starting with a / -->
+                                    <fieldset id="usuario">
+                                    
+                                    <p>Aqui é o espaço para nos conhecermos mais!</p><br>
+                                    <p>Sinta-se a vontade para nos contar da sua experiência e sugestões.</p>
+                                    <div class="legend"><!-- Ver pq Css legend não alterou o formato e tamanho da
+                                                             escrita por completo ;/ -->
+                                        <!--Fazendo com o 'laber for e idicando o name' faz com que o nome tbm fique clicável, 
+                                                bom para a semântica do Google em ler a página e respender a ações
+                                                simples como clicar no nome e ir direto para a caixa dele mesmo--> 
+                                        <label for="tMail"><input type="email" name="email" id="cMail" size="40" maxlength="255"placeholder="E-mail" required></label>
+                                        <br>
+                                        <br>
+                                        <br>                                    
+                                        <label for="tNome"><input type="text" name="nome" id="cNomeSobrenome" size="40" maxlength="255" placeholder="Nome e Sobrenome" required></label><br>
+                                        <br>
+                                        
+                                        
+                                        <div class="box">
+                                            <div id ="divbox" ><!-- Ver pq Css dixBox não alterou o tamanho  da
+                                                            da caixa para escrita em forma de retangulo;/ -->
+                                            </div>    
+                                        </div>
+                                        <br>
+                                       <!-------------------------------------------  Ocultar IP -->
     
-                        <select name="tipo">
-                            <option value="B2C">Aluno</option>
-                            <option value="B2B">Empresa</option>
-                        </select>
+                                        <label id="ocultar">
+                                                <select name = "ip">
+                                                    <option id="ip"></option>
+                                                </select>
+                                        </label>
+                                            
+                                            
+                                            <script type="application/javascript">
+                                                //este bloco de condigo esconde o IP do usuario que esta sendo armazenado
+                                                let esconderIp = document.getElementById("ocultar");
+                                                let esconderHr = document.getElementById("ocultarHr");         
+                                                    esconderIp.style.display = "none";
+                                                    esconderHr.style.display = "none";                                           
     
-                        <div class="form-group">
-                            <div class="col">
-                                <input style="display: none" id="userData" type="text" class="form-control" placeholder="Data" name="data">
-                            </div>
-                        </div>
+                                                function getIP(json) {
+                                                  document.getElementById("ip").innerText = json.ip;
+                                                }
+                                            </script>
+                                                
+                                            <!-------------------------------------------  PI utilizad para estração de IP -->        
+                                            <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+                                            
+                                            <p>
+                                                <label>Pessoa: <input type="radio" name="tipo" value="B2B"> Jurídica <input type="radio" name="tipo" value="B2C" > Física</label>
+                                            </p>
+                                            <br>
+                                        
+                                            <label id="ocultarHr">
+                                                Hora: 
+                                                    <select name="data_hora" name="role[]" > 
+                                                        <option id="test"></option>
+                                                    </select>
     
-                            
-                        <div class="col">
-                            <button type="submit" class="btn btn-light">Enviar</button>
-                        </div>
-                    </form>
-                </div>
+                                                    <script>//bloco de código que difine a hora e armazena no "select>option"
+                                                        let esconderHr = document.getElementById("ocultarHr");         
+                                                            esconderHr.style.display = "none";            
+    
+                                                        var date = new Date();
+                                                        document.getElementById("test").innerText = (date.getFullYear() + '-' + date.getMonth() + '-' + 
+                                                        date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds());
+                                                    </script>                                            
+                                            </label>
+                                            <br>
+                                            <br>
+                                            
+                                            
+                                                                               
+    
+                                        <!-------------------------------------------  Campo - Rodapé fixo com link para formulário -->
+    
+                                        
+                                        <!-- Ver na documentação do Css como movimentar o botão mais para baixo ;/ -->
+                                            <label for="tcadastrar">
+                                                <input type="submit" name="tCadastrar" id="cCadastrar" valeu="Cadastrar" required>
+                                            </label>
+                                    </div>
+                                    </fieldset>
+                                </form>
+                
                    
         </div>
             </main>
