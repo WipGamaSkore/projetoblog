@@ -72,7 +72,7 @@
             <!-------------------------------------------  Campo - Logo --> 
         <div class="container_cabeca">
             <div class="logo">              
-                    <a href="../formulario.html"><img src="img/youp.png" title="Logo Blog Youp!" alt= "logo" height="150px"></a>
+                    <a href="index.html"><img src="img/youp.png" title="Logo Blog Youp!" alt= "logo" height="150px"></a>
             </div>   
             <!-------------------------------------------  Campo - Navegação botões -->
                     <a  class="nav4" href="./index.html"> Blog </a>
@@ -90,7 +90,59 @@
     </header>
     <main>
         <div class="container_blog">
-                <!----------- Artigo 1--------->
+                
+<style>
+    .cont{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0; bottom: 0;
+            margin: auto;
+            width: 600px;
+            height: 350px;
+            padding: 15px;
+            border: 1px black;
+            background: red;
+            opacity:.8;
+            display: none;
+       
+    }
+    </style>
+    <div class="container">
+                <div id="div_form" class="col-sm-5 col-md-6">
+                    
+                    <form name="contact" method="POST" data-netlify="true">
+                    
+                        <div class="form-group">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Nome" name="nome">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="E-mail" name="E-mail">
+                            </div>
+                        </div>
+    
+                        <select name="tipo">
+                            <option value="B2C">Aluno</option>
+                            <option value="B2B">Empresa</option>
+                        </select>
+    
+                        <div class="form-group">
+                            <div class="col">
+                                <input style="display: none" id="userData" type="text" class="form-control" placeholder="Data" name="data">
+                            </div>
+                        </div>
+    
+                            
+                        <div class="col">
+                            <button type="submit" class="btn btn-light">Enviar</button>
+                        </div>
+                    </form>
+                </div>
                    
         </div>
             </main>
@@ -102,55 +154,5 @@
                                 <button href=“formulario.html”>Cadastrar a Newsletter</button>
                 </div>       
             </footer>
-<style>
-.cont{
-    
-        position: fixed;
-        top: 0; bottom: 0;
-        margin: auto;
-        width: 600px;
-        height: 350px;
-        padding: 15px;
-        border: 1px black;
-        background: red;
-        opacity:.8;
-        display: none;
-   
-}
-</style>
-<div class="cont">
-            <div id="div_form" class="col-sm-5 col-md-6">
-                
-                <form name="contact" method="POST" data-netlify="true">
-                
-                    <div class="form-group">
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Nome" name="nome">
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="E-mail" name="E-mail">
-                        </div>
-                    </div>
-
-                    <select name="tipo">
-                        <option value="B2C">Aluno</option>
-                        <option value="B2B">Empresa</option>
-                    </select>
-
-                    <div class="form-group">
-                        <div class="col">
-                            <input style="display: none" id="userData" type="text" class="form-control" placeholder="Data" name="data">
-                        </div>
-                    </div>
-
-                        
-                    <div class="col">
-                        <button type="submit" class="btn btn-light">Enviar</button>
-                    </div>
-                </form>
-            </div>
         </body>
         </html>                    
