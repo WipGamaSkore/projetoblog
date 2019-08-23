@@ -88,65 +88,9 @@
                                             bom para a semântica do Google em ler a página e respender a ações
                                             simples como clicar no nome e ir direto para a caixa dele mesmo--> 
                               <!--<label><input type="email" name="email" id="cMail" size="40" maxlength="255"placeholder="E-mail" required></label>-->
-                                    <label><input type="text"  placeholder="email" name="E-mail" required>
-                                    <br>
-                                    <br>                                    
-                                    <label><input type="text" placeholder="Nome" name="nome" required></label><br>
-                                    <br>
-                                    
-                                    
-                                    <div class="box">
-                                        <div id ="divbox" ><!-- Ver pq Css dixBox não alterou o tamanho  da
-                                                        da caixa para escrita em forma de retangulo;/ -->
-                                        </div>    
-                                    </div>
-                                    <br>
-                                   <!-------------------------------------------  Ocultar IP -->
-
-                                    <label id="ocultar">
-                                            <select name = "ip">
-                                                <option id="ip"></option>
-                                            </select>
-                                    </label>
-                                        
-                                        
-                                        <script type="application/javascript">
-                                            //este bloco de condigo esconde o IP do usuario que esta sendo armazenado
-                                            let esconderIp = document.getElementById("ocultar");
-                                            let esconderHr = document.getElementById("ocultarHr");         
-                                                esconderIp.style.display = "none";
-                                                esconderHr.style.display = "none";                                           
-
-                                            function getIP(json) {
-                                              document.getElementById("ip").innerText = json.ip;
-                                            }
-                                        </script>
-                                            
-                                        <!-------------------------------------------  PI utilizad para estração de IP -->        
-                                        <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
-                                        
-                                        <p>
-                                            <label>Pessoa: <input type="radio" name="tipo" value="B2B"> Jurídica <input type="radio" name="tipo" value="B2C" > Física</label>
-                                        </p>
-                                        <br>
-                                    
-                                        <label id="ocultarHr">
-                                            Hora: 
-                                                <select name="data_hora" name="role[]" > 
-                                                    <option id="test"></option>
-                                                </select>
-
-                                                <script>//bloco de código que difine a hora e armazena no "select>option"
-                                                    let esconderHr = document.getElementById("ocultarHr");         
-                                                        esconderHr.style.display = "none";            
-
-                                                    var date = new Date();
-                                                    document.getElementById("test").innerText = (date.getFullYear() + '-' + date.getMonth() + '-' + 
-                                                    date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds());
-                                                </script>                                            
-                                        </label>
-                                        <br>
-                                        <br>
+                              <input type="text" class="form-control" placeholder="E-mail" name="E-mail">
+                              <input type="text" class="form-control" placeholder="Nome" name="nome">
+                             
                                         
                                         
                                                                            
