@@ -72,7 +72,7 @@
         <!-------------------------------------------  Campo - Logo -->  
         <div class="container_cabeca">
             <div class="logo">              
-                    <a href="../formulario.html"><img src="img/youp.png" title="Logo Blog Youp!" alt= "logo" height="150px"></a>
+                    <a href="fale_conosco.html"><img src="img/youp.png" title="Logo Blog Youp!" alt= "logo" height="150px"></a>
             </div>   
             <!-------------------------------------------  Campo - Navegação botões -->
                     <a  class="nav4" href="./index.html"> Blog </a>
@@ -82,7 +82,7 @@
             <!-------------------------------------------  Campo - Busca/Pesquisa -->
                 <div class="busca">
                     <div id ="divBusca">
-                            <input type="text" id ="txtBusca" placeholder="Pesquisar conteudo" >                            
+                            <input hrfe="https://google.com" type="text" id ="txtBusca" placeholder="Pesquisar conteudo" >                            
                     </div>
                 </div>    
         </div>            
@@ -100,8 +100,7 @@
                                 <form class="form" name="contact" method="POST" data-netlify="true" action="/download." > <!-- tag, entering the path of your custom page (like "/pages/success") as the value.
                                                                                                                      The path must be relative to the site root, starting with a / -->
                                 <fieldset id="usuario">
-                                <legend ></legend><!-- 1. Ver pq o quadrado da legend não fechou por completo ;/ 
-                                                       2. Ver pq Css legend não alterou a escrita para o centro ;/ -->
+                                
                                 <p>Aqui é o espaço para nos conhecermos mais!</p><br>
                                 <p>Sinta-se a vontade para nos contar da sua experiência e sugestões.</p>
                                 <div class="legend"><!-- Ver pq Css legend não alterou o formato e tamanho da
@@ -119,7 +118,7 @@
                                     <div class="box"></div>
                                     <div id ="divbox" ><!-- Ver pq Css dixBox não alterou o tamanho  da
                                                             da caixa para escrita em forma de retangulo;/ -->
-                                    <textarea for="tBox"type="text" name="txtBox" id="cBox" size="500" maxlength="2000" placeholder="Deixe sua mensagem"></textarea>
+                                    <textarea for="tBox"type="text" name="txtBox" id="cBox" rows="10" cols="70" size="500" maxlength="2000" placeholder="Deixe sua mensagem"></textarea>
                                 </div>    
                                 </div>
                                 
@@ -127,7 +126,7 @@
                                     <!-- Ver na documentação do Css como movimentar o botão mais para baixo ;/ -->
                                     <label for="tcadastrar"><input type="submit" name="tCadastrar" id="cCadastrar" valeu="Cadastrar" required></label>
                                 </div> 
-                    
+                            </fieldset>
 
                 </form>
                
@@ -135,9 +134,9 @@
         <!-------------------------------------------  Campo - Rodapé fixo com link para formulário -->
             <footer>
                 <div class=" botao">
-                                     
-                                <a style="color: white" href="formulario.html" target=“_blank”>Cadastrar a Newsletter</a>
-                        
+                        <a href="formulario.html" target=“_blank” ><button>Cadastrar Newsletter</button></a>
+                               
+                               
             </footer>
         
         </body>

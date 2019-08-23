@@ -29,6 +29,7 @@ A Blog project to generate leads proposed in the assignment of week 2 by Gama Ex
         - Waiting the image download in the drive root file;
 
     * 5 dicas para a gestão do capital intelectual da sua empresa:
+        - Bad atribute ( = ) inside a  Recruiting Blogs link
         - Indexpage link Done;
         - Need fix link - Gostou do conteúdo? Surgiu alguma dúvida sobre o assunto?  Vamos adorar saber a sua opinião sobre o assunto!;
         - Need fix link button to formulario Cadastrar a Newsletter;

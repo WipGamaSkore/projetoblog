@@ -16,7 +16,7 @@ main{
 }
 footer{ /*------------------------ Rodapé fixo na rolagem da página -- */ 
     background: #1b105a;
-    border-top: 1px solid #BAE1F8;;
+    border-top: 1px solid #BAE1F8;
     bottom: 0;
     left: 0;
     height: 50px;
@@ -151,9 +151,10 @@ footer{ /*------------------------ Rodapé fixo na rolagem da página -- */
 }
 /*----------------- Botao da newsletter -----------*/
 .botao{
+
     position: absolute;
     right: 80px;
-    bottom: 15px;
+    bottom: 10px;
 }
 h1{
     text-align: center;
